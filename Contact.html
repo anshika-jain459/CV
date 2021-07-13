@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>Address:XXX,N.F.L Vijaipur township, Guna</p>
+    <p>Number:9425135765</p>
+    <p>anshi.jain.2001@gmail.com</p>
+    <form action="mailto:anshi.jain.2001@gmail.com" method="POST" enctype="text/plain"><!--here action signifies that if we use submit then after it we go to that file-->
+        <table>
+            <tr>
+                <td><label>Your Name:</label></td>
+                <td> <input type="text" name="yourName">
+                    <input type="color"><br></td>
+            </tr>
+            <tr>
+                <td> <label>Email:</label></td>
+                <td><input type="email" name="yourmail"><br></td>
+            </tr>
+            <tr>
+                <td><label>Enter a strong Password:</label>
+                    </td>
+                <td><input type="password" name="yourpassword"><br></td>
+            </tr><!--if you put the name attribute to input then only using mailto will send the pssword to u otherwise it won't send u the password-->
+            <tr>
+                <td><label>Date of Birth</label></td>
+                <td><input type="date"><br></td>
+            </tr>
+            <tr>
+                <td><label>Do you want to submit this form?</label></td>
+                <td><input type="checkbox"><br><br></td>
+            </tr>
+        </table>
+        <label>Your Message</label>
+        <textarea name="yourmessage" id="email" cols="30" rows="10"></textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>
